@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Дни до дня рождения</title>
+</head>
+<body>
+    <h1>Посчитай дни до своего дня рождения</h1>
+    <br>
+    <form>
+        <div>
+          <label for="bday">Введите дату вашего рождения:</label>
+          <br>
+          <input type="date" id="bday" name="bday"/>
+        </div>
+      </form>
+      <br>
+    <button id="btn" class = "glow-on-hover" onclick="showDate()" >Посчитать</button>
+    <br>
+    <p type="text" id="result"></p>
+    <p id="noresult" class="alert"></p>
+    <script src="index.js"></script>
+</body>
+</html>
